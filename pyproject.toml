@@ -1,0 +1,16 @@
+[project]
+name = "heliodash_streamlit"
+version = "0.0.1"
+description = "Heliosphere Dashboard (HelioDash) is an open-source tool for visualizing heliosphere-related data."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{name = "Mingyu Jeon"}]
+dependencies = [
+    "heliodash>=0.0.14",
+    "streamlit>=1.44.1",
+]
+
+[project.urls]
+Homepage = "https://github.com/mgjeon/heliodash_streamlit"
+Repository = "https://github.com/mgjeon/heliodash_streamlit"
+Issues = "https://github.com/mgjeon/heliodash_streamlit/issues"
