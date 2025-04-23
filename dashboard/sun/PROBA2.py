@@ -1,6 +1,6 @@
 import streamlit as st
 
-from heliodash.packages.sun.proba2.proba2_image import proba2_image
+from heliodash.sun.proba2.proba2_image import proba2_image
 
 st.markdown(
     """

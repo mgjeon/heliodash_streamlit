@@ -1,10 +1,10 @@
 import streamlit as st
 
-from heliodash.packages.sun.hinode.hinode_image import hinode_image
+from heliodash.sun.hinode.hinode_image import hinode_image
 
 st.markdown(
     """
-    # Hinode
+    # Hinode (Solar-B)
 
     ![Hinode](https://www.nasa.gov/wp-content/uploads/2015/06/541940main_hinode-orig_full.jpg)
 

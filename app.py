@@ -19,12 +19,16 @@ def main():
             - [Positions of Planets and Spacecrafts](/Position)
 
             ### Sun
-            - [GOES](/GOES)
+            - [GOES series](/GOES)
+            - [Yohkoh](/Yohkoh)
+            - [GONG](/GONG)
+            - [RHESSI](/RHESSI)
             - [SOHO](/SOHO)
             - [Hinode](/Hinode)
             - [STEREO](/STEREO)
             - [PROBA-2](/PROBA2)
             - [SDO](/SDO)
+            - [IRIS](/IRIS)
             - [Parker Solar Probe](/PSP)
             - [Solar Orbiter](/SolO)
 
@@ -50,12 +54,16 @@ def main():
                 ),
             ],
             "Sun": [
-                st.Page("dashboard/sun/GOES.py", title="GOES"),
+                st.Page("dashboard/sun/GOES.py", title="GOES series"),
+                st.Page("dashboard/sun/Yohkoh.py", title="Yohkoh"),
+                st.Page("dashboard/sun/GONG.py", title="GONG"),
                 st.Page("dashboard/sun/SOHO.py", title="SOHO"),
+                st.Page("dashboard/sun/RHESSI.py", title="RHESSI"),
                 st.Page("dashboard/sun/Hinode.py", title="Hinode"),
                 st.Page("dashboard/sun/STEREO.py", title="STEREO"),
                 st.Page("dashboard/sun/PROBA2.py", title="PROBA-2"),
                 st.Page("dashboard/sun/SDO.py", title="SDO"),
+                st.Page("dashboard/sun/IRIS.py", title="IRIS"),
                 st.Page("dashboard/sun/PSP.py", title="Parker Solar Probe"),
                 st.Page("dashboard/sun/SolO.py", title="Solar Orbiter"),
             ],

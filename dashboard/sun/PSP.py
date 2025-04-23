@@ -3,7 +3,7 @@ from pathlib import Path
 
 import streamlit as st
 
-from heliodash.packages.sun.psp.psp_image import (
+from heliodash.sun.psp.psp_image import (
     psp_wispr_combined_plot,
     psp_wispr_date_list,
     psp_wispr_fits_list,

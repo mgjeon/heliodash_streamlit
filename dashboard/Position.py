@@ -2,8 +2,8 @@ from datetime import datetime, timezone
 
 import streamlit as st
 
-from heliodash.packages.system.body_position import plot_body_position
-from heliodash.packages.system.body_position_plotly import (
+from heliodash.system.body_position import plot_body_position
+from heliodash.system.body_position_plotly import (
     plot_body_position_plotly,
 )
 

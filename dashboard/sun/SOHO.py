@@ -1,7 +1,7 @@
 import streamlit as st
 
-from heliodash.packages.sun.soho.soho_image import soho_image
-from heliodash.packages.sun.soho.soho_video import soho_video
+from heliodash.sun.soho.soho_image import soho_image
+from heliodash.sun.soho.soho_video import soho_video
 
 st.markdown(
     """

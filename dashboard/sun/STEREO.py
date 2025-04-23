@@ -1,7 +1,7 @@
 import streamlit as st
 
-from heliodash.packages.sun.stereo.stereo_image import stereo_image
-from heliodash.packages.sun.stereo.stereo_video import stereo_video
+from heliodash.sun.stereo.stereo_image import stereo_image
+from heliodash.sun.stereo.stereo_video import stereo_video
 
 st.markdown(
     """

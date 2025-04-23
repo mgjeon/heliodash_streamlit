@@ -1,14 +1,15 @@
 import streamlit as st
 
-from heliodash.packages.sun.goes.goes_proton_flux import goes_proton_flux
-from heliodash.packages.sun.goes.goes_suvi import goes_suvi_image
-from heliodash.packages.sun.goes.goes_xray_flux import goes_xray_flux
+from heliodash.sun.goes.goes_proton_flux import goes_proton_flux
+from heliodash.sun.goes.goes_suvi import goes_suvi_image
+from heliodash.sun.goes.goes_xray_flux import goes_xray_flux
 
-st.markdown("# GOES")
+st.markdown("# GOES series")
 st.image(
     "https://www.nesdis.noaa.gov/s3/2025-01/GOES_Observations_graphic_10-24.jpg",
     caption="Source: [NOAA/NESDIS](https://www.nesdis.noaa.gov/our-satellites/currently-flying/geostationary-satellites/celebrating-50-years-of-goes)",
 )
+st.markdown("Launch: 1975")
 
 plot_type = st.sidebar.selectbox(
     "Plot Type", ("GOES SUVI Images", "GOES X-ray Flux", "GOES Proton Flux")
