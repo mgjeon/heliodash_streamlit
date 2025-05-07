@@ -1,4 +1,4 @@
-# Heliosphere Dashboard (HelioDash)
+# Heliosphere Dashboard (HelioDash) - Streamlit
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://heliodash.streamlit.app/) [![PyPI](https://img.shields.io/pypi/v/heliodash.svg)](https://pypi.org/pypi/heliodash/)
    
