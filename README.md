@@ -13,7 +13,6 @@ pip install -U heliodash
 
 Clone the repository and run the Streamlit app:
 ```
-git clone https://github.com/mgjeon/heliodash
-cd heliodash
+git clone https://github.com/mgjeon/heliodash_streamlit
 streamlit run app.py
 ```
