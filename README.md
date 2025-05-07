@@ -15,5 +15,5 @@ Clone the repository and run the Streamlit app:
 ```
 git clone https://github.com/mgjeon/heliodash
 cd heliodash
-streamlit run heliodash/app.py
+streamlit run app.py
 ```
